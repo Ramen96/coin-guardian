@@ -44,10 +44,13 @@ import { FooterComponent } from '../footer/footer.component';
 })
 export class AddressComponent {
     processData(value1: string, value2: string) {
-       value1 == value2 ? alert('It\'s a match you\'re good to go!')
-       : value1 !== value2 ? alert('NOT A MATCH check address/contract')
-       : value1 && value2 == '' ? console.log('empty input')
-       : console.log('');
+        const emtpyString = '';
+       (value1 == emtpyString || value2 == emtpyString) ? alert('Please fill out the forms') 
+       : (
+        (value1 == value2) 
+        ? alert('It\'s a match you\'re good to go!') 
+        : alert('WARNING: NOT A MATCH')
+        )
     }
 
 }
