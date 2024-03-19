@@ -12,7 +12,7 @@ import { FooterComponent } from '../footer/footer.component';
     <div class="h-1/2 flex justify-center items-center mt-24 sm:mt-32">
         <div>
         <h1 class="mb-4 text-3xl sm:text-5xl text-center font-mono leading-none tracking-tight text-black dark:text-slate-200">A tool to prevent user error</h1>
-        <p class="mb-6 text-center text-base sm:text-lg lg:text-xl lg:ml-8 lg:mr-8 font-normal text-gray-600 dark:text-slate-400">A simple app to varify cryptocurrency wallet and contract address's match. Our code is open sorce on <a href="https://github.com/Ramen96" target="_blank" class="text-teal-500 underline">GitHub</a> feel free to inpect it for your self.</p>
+        <p class="mb-6 text-center text-base sm:text-lg lg:text-xl lg:ml-8 lg:mr-8 font-normal text-gray-600 dark:text-slate-400">A simple app to varify cryptocurrency wallet and contract address's match. Our code is open sorce on <a href="https://github.com/Ramen96/coin-guardian" target="_blank" class="text-teal-500 underline">GitHub</a> feel free to inpect it for your self.</p>
         <p class="mb-6 text-center text-base sm:text-lg lg:text-xl font-bold font-mono text-black dark:text-slate-300">
             To verify wallet addresses, follow these steps:
         </p>
