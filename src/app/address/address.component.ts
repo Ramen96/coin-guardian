@@ -35,8 +35,8 @@ export class AddressComponent {
        (value1 == emtpyString || value2 == emtpyString) // Check if feilds are empty
        ? alert('Please fill out the forms') 
        : (
-            (value1 == value2) // If not empty see if they match. 
-            ? alert(`It\'s a match you\'re good to go! Copy ${value1}`) 
+            (value1 == value2) // If not empty see if they match.
+            ? alert(`It\'s a match you\'re good to go! Copy: ${value1}`) 
             : alert('WARNING: NOT A MATCH')
         )
     }
