@@ -14,3 +14,7 @@ It is a gui tool to verify crypto wallet and contract addresses match.
 4. Run `npm install`
 5. Run `ng serve`
 6. In your browser go to http://localhost:4200/
+
+# Roadmap
+  Right now the next step in this project it to create a user interface to fetch and dispaly blockchain data for any wallet/contract address a user submits.
+  
