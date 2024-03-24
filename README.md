@@ -11,5 +11,6 @@ It is a gui tool to verify crypto wallet and contract addresses match.
     `git clone https://github.com/Ramen96/coin-guardian.git`
 2. Make sure you have nodejs installed. https://nodejs.org/en/ and angular cli `npm install -g @angular/cli`
 3. cd into this repository `cd coin-guardian`
-4. run `npm install`
-5. run `ng serve`
+4. Run `npm install`
+5. Run `ng serve`
+6. In your browser go to http://localhost:4200/
