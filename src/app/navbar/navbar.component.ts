@@ -14,7 +14,7 @@ import { CommonModule } from '@angular/common';
             <span class="self-center text-2xl tracking-widest font-light whitespace-nowrap dark:text-slate-100">CoinGuardian</span>
         </a>
         <div class="flex items-center space-x-3">
-          <a href="test" class="text-white font-light text-2xl justify-self">test</a>
+          <a href="test" class="dark:text-white text-black font-light text-2xl justify-self">test</a>
         </div>
       </div>
     </nav>
