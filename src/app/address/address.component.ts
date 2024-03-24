@@ -29,14 +29,14 @@ import { FooterComponent } from '../footer/footer.component';
   styleUrls: ["address.component.scss"]
 })
 export class AddressComponent {
-    // Checks strings from inputs match. Also checks if either input is empty.
+    // Checks strings from inputs match.
     processData(value1: string, value2: string) {
         const emtpyString = '';
-       (value1 == emtpyString || value2 == emtpyString) 
+       (value1 == emtpyString || value2 == emtpyString) // Check if feilds are empty
        ? alert('Please fill out the forms') 
        : (
-            (value1 == value2) 
-            ? alert('It\'s a match you\'re good to go!') 
+            (value1 == value2) // If not empty see if they match. 
+            ? alert(`It\'s a match you\'re good to go! Copy ${value1}`) 
             : alert('WARNING: NOT A MATCH')
         )
     }

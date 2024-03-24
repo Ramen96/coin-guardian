@@ -13,8 +13,8 @@ import { CommonModule } from '@angular/common';
         <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
             <span class="self-center text-2xl tracking-widest font-light whitespace-nowrap dark:text-slate-100">CoinGuardian</span>
         </a>
-        <div>
-          <a href="test" class="">test</a>
+        <div class="flex items-center space-x-3">
+          <a href="test" class="text-white font-light text-2xl justify-self">test</a>
         </div>
       </div>
     </nav>
