@@ -10,7 +10,7 @@ import { FooterComponent } from '../footer/footer.component';
   imports: [NavbarComponent, RouterModule, CommonModule,FooterComponent],
   template:`
     <div class="flex justify-center items-center h-1/2 mt-36">
-        <div class="w-full max-w-4xl h-80 bg-slate-100 rounded-md overflow-hidden shadow-xl shadow-slate-300 p-4 dark:bg-zinc-900 dark:shadow-slate-900 dark:shadow-lg dark:text-white">
+        <div class="w-full max-w-4xl h-96 bg-slate-100 rounded-md overflow-hidden shadow-xl shadow-slate-300 p-4 dark:bg-zinc-900 dark:shadow-slate-900 dark:shadow-lg dark:text-white">
             <h2 class="text-3xl text-center font-extralight tracking-widest mb-4 text-black dark:text-gray-200">Address/Contract</h2>
             <form class="flex items-center flex-col max-w-lg mx-auto mb-4 space-y-10">   
                 <div class="relative w-full">
