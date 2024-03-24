@@ -20,7 +20,7 @@ import { FooterComponent } from '../footer/footer.component';
                     <input type="text" #inputFeild2 (keyup.enter)="processData(inputFeild1.value, inputFeild2.value)" class="bg-gray-700 border border-gray-600 text-white text-sm rounded-lg block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400" placeholder="Paste wallet address" required />
                 </div>
                 <!-- Copy to clipboard component -->
-                <div class="w-full max-w-[16rem]">
+                <div class="w-full max-w-[32rem]">
                     <div class="relative">
                         <label for="npm-install-copy-button" class="sr-only">Label</label>
                         <input id="npm-install-copy-button" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value="Copy to clipboard" disabled readonly>
@@ -43,7 +43,7 @@ import { FooterComponent } from '../footer/footer.component';
                         </div>
                     </div>
                 </div>
-
+                <!-- End of copy to clipboard component -->
                 <button type="submit" (click)="processData(inputFeild1.value, inputFeild2.value)" class="inline-flex items-center py-2.5 px-3 ms-2 text-sm font-light font-mono tracking-widest text-white bg-black rounded-full border focus:outline-none dark:bg-white dark:text-black">Submit</button>
             </form>
         </div>
