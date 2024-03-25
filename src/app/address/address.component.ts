@@ -65,8 +65,4 @@ export class AddressComponent {
             : alert('WARNING: NOT A MATCH')
         )
     }
-    copyToClipboard(value1: string) {
-        
-        // Set value1 to a dynamic varuible that will be equal to the value class in the <input> in line 26
-    }
 }
