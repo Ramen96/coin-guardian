@@ -61,12 +61,12 @@ export class AddressComponent {
        ? alert('Please fill out the forms') 
        : (
             (value1 == value2) // If not empty see if they match.
-            ? this.copyToClipboard(value1) 
+            ?  alert('It\'s a match you\'re good to go!')
             : alert('WARNING: NOT A MATCH')
         )
     }
     copyToClipboard(value1: string) {
-        alert('It\'s a match you\'re good to go!');
+        
         // Set value1 to a dynamic varuible that will be equal to the value class in the <input> in line 26
     }
 }
